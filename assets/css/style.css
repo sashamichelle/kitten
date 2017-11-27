@@ -1,0 +1,29 @@
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+/*contenedor para mi imagen inicial*/
+.container{
+background-image: url(../img/sunny-day.jpg);
+background-size: 100%;
+width:943px;
+height:350px;
+z-index: 10;
+background-repeat:no-repeat;
+padding-top:405px;
+padding-left:405px;
+background-size: cover;
+
+}
+/* estilos de mi gatito inicial*/
+.image{
+background-image: url(../img/kitten-medium.png);
+height:275px;
+width:450px;
+z-index: 30;
+background-repeat: no-repeat;
+
+}
